@@ -32,7 +32,7 @@ def init_llm():
     # Llama Model Configuration
     MODEL_ID = "meta-llama/llama-3-3-70b-instruct"
     WATSONX_URL = "https://us-south.ml.cloud.ibm.com"
-    PROJECT_ID = "skills-network"
+    PROJECT_ID = ""    # --> your project id
 
     # Use the same parameters as before:
     #   MAX_NEW_TOKENS: 256, TEMPERATURE: 0.1
